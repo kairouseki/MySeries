@@ -69,5 +69,7 @@ function recursive_directory_tree($directory = null) {
 	return $resultat;
 }
 
+// Browse the directory and get all the needed files
 $files = recursive_directory_tree('/home/user/downloads');
+// Output JSON files datas 
 echo json_encode($files,JSON_PRETTY_PRINT);
