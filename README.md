@@ -5,9 +5,14 @@ This is my attempt to build a python client for Mac OS for watching my series st
 
 * Install [PySide](http://qt-project.org/wiki/PySide) with [Brew](http://brew.sh) in order to display the GUI :
 
-<code>
-brew install pyside
-</code>
+<pre><code>
+    brew install pyside
+</code></pre>
+
+Add this line in your .bash_profile :
+<pre><code>
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH 
+</code></pre>
 
 * Install VLC & [Subtitles](http://subtitlesapp.com) & go get some popcorn while you're at it.
 
